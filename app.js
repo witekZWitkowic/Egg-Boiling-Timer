@@ -81,16 +81,19 @@ soft.addEventListener('click', () =>{
     softImg.classList.add('selected');
     removeSelected(softImg, mediumImg, hardImg, 'selected');
     typeTimer(4, 5, 6);
+    startBtnEnabled()
 });
 medium.addEventListener('click', () =>{
     mediumImg.classList.add('selected');
     removeSelected(mediumImg, softImg, hardImg, 'selected');
     typeTimer(5, 6, 8);
+    startBtnEnabled()
 });
 hard.addEventListener('click', () =>{
     hardImg.classList.add('selected');
     removeSelected(hardImg, softImg, mediumImg, 'selected');
     typeTimer(7, 8, 9);
+    startBtnEnabled()
 });
 
 //SIZES
