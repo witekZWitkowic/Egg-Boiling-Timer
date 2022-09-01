@@ -7,7 +7,7 @@
     margin-top: 30px;
   }
   #timer {
-    margin-top: 50px;
+    margin-top: 10px;
     #minutes, #seconds, #dots {
       font-size: 8rem;
     }
@@ -26,6 +26,7 @@
   }
   h2 {
     font-size: 1.2rem;
+    margin: 10px 0;
   }
   #large {
     width: calc(63px * 0.8);
