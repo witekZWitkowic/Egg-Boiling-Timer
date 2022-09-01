@@ -1,0 +1,71 @@
+@media only screen and (max-width: 600px) {
+  #boiling-set {
+    width: 100%;
+    max-width: 600px;
+  }
+  #eggs-images {
+    margin-top: 30px;
+  }
+  #timer {
+    margin-top: 50px;
+    #minutes, #seconds, #dots {
+      font-size: 8rem;
+    }
+  }
+  img {
+    width: 105px;
+    height: 105px;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+  h1 {
+    width: 95vw;
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  #large {
+    width: calc(63px * 0.8);
+    height: calc(88px * 0.8);
+  }
+  #medium {
+    width: calc(51px * 0.8);
+    height: calc(71px * 0.8);
+  }
+  #small {
+    width: calc(45px * 0.8);
+    height: calc(64px * 0.8);
+  }
+  .egg-description {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #boiling-set {
+    width: 100%;
+    max-width: 400px;
+  }
+  h2 {
+    margin: 10px 0;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+  #timer {
+    margin-top: 5px;
+    #minutes, #seconds, #dots {
+      font-size: 6rem;
+    }
+  }
+  .egg-description {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+}

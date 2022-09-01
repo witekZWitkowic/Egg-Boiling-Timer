@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Perfect Egg Boiling Timer</title>
+        <script src="app.js" defer></script>
+        <link href="styles/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <main id="boiling-set">
+            <h1>Make a perfect egg with Boiling Timer!</h1>
+            <h2>Choose the size of your egg.</h2>
+            <section id="eggs-size">
+                <div><button id="small">S</button></div>
+                <div><button id="medium">M</button></div>
+                <div><button id="large">L</button></div>
+            </section>
+            <h2>Choose how would you like your egg to boil.</h2>
+            <section id="eggs-images">
+                <div class="egg-container">
+                    <button id="soft-boiled-egg"><img id="soft-boiled-img" src="images/soft.jpg" /></button>
+                    <span class="egg-description">Soft</span>
+                </div>
+                <div class="egg-container">
+                    <button id="medium-boiled-egg"><img id="medium-boiled-img" src="images/medium.jpg" /></button>
+                    <span class="egg-description">Medium</span>
+                </div>
+                <div class="egg-container">
+                    <button id="hard-boiled-egg"><img id="hard-boiled-img" src="images/hard.jpg" /></button>
+                    <span class="egg-description">Hard</span>
+                </div>
+            </section>
+            <section id="timer">
+                <div id="minutes">0</div>
+                <div id="dots">:</div>
+                <div id="seconds">00</div>
+                <audio src="https://cdn.freesound.org/previews/198/198841_285997-lq.mp3"></audio>
+            </section>
+            <section id="buttons">
+                <button id="startBtn">Start!</button>
+                <button id="resetBtn">Reset!</button>
+            </section>
+        </main>
+    </body>
+</html>

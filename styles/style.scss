@@ -1,0 +1,123 @@
+
+* {
+  font-family: "Fira sans", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 95vh;
+  background: #82c8dcEE;
+  margin-top: -90px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.6rem;
+  color: #FFF;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #FFF;
+}
+button {
+  border: none;
+  background: none;
+}
+#boiling-set {
+  width: 50%;
+  margin: 100px auto;
+}
+.egg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.egg-description {
+  font-size: 2rem;
+  color: #FFF;
+  margin-top: 25px;
+  font-weight: bold;
+}
+#eggs-images {
+  display: flex;
+  justify-content: space-evenly;
+}
+#eggs-size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#small, #medium, #large {
+  background: #fcede2;
+  border-radius: 50% 60% 50% 50% / 70% 70% 40% 40%;
+  border: none;
+  cursor: pointer;
+  margin: 20px;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1.3rem;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+#large {
+  width: 63px;
+  height: 88px;
+}
+#medium {
+  width: 51px;
+  height: 71px;
+}
+#small {
+  width: 45px;
+  height: 64px;
+}
+#timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  #minutes, #seconds, #dots {
+    font-size: 10rem;
+    color: #FFF;
+  }
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+#startBtn, #resetBtn {
+  display: block;
+  margin: 15px 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+  background: #FFF;
+  color: #82c8dcCC;
+  cursor: pointer;
+  &:active {
+    transform: scale(0.9);
+  }
+}
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.25);
+  }
+}
+.selected {
+  border-radius: 50%;
+  border: 5px solid #FFF;
+  transform: scale(1.15);
+}
+.selectedSize {
+  border: 3px solid #FFF !important;
+  transform: scale(1.15);
+}
+@import './_media';
